@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import "./App.css";
 
 export default function App() {
-  const[validEmail,setValidEmail] = useState(true)
+  const[validEmail,setValidEmail] = useState(true);
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
