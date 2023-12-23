@@ -1,14 +1,18 @@
 body{
   background-image: url('./background.avif');
-  background-size: cover;
+  background-size: cover;  
+  background-repeat: no-repeat;
+  padding: .6rem;
+  padding-bottom: 3.7rem;
   backdrop-filter: blur(2px);
+
 }
 
 .App {
     font-family: monospace;
     /* background-color: #A5691F; */
     background-color: #F2DAC1;
-    margin: 1.6rem auto;
+    margin: 10rem auto;
     padding:1rem;
     width: 90%;
     border-radius: .4rem;
