@@ -1,38 +1,95 @@
+body{
+  background-image: url('./background.avif');
+  background-size: cover;
+  backdrop-filter: blur(2px);
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    font-family: monospace;
+    /* background-color: #A5691F; */
+    background-color: #F2DAC1;
+    margin: 1.6rem auto;
+    padding:1rem;
+    width: 90%;
+    border-radius: .4rem;
+    
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h1{
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  .form{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  
   }
-}
+  .form input{
+    padding: .7rem;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier,monospace;
+    font-weight: bold;
+    color: #120B04;
+    border: none;
+  }
+  input:hover,
+  input:focus,
+  textArea:hover,
+  textArea:focus{
+    outline:none;
+  }
+  
+  .form textArea{
+    resize: none;
+    padding: .5rem;
+    font-size: 1.1rem;
+    border:none;
+  
+  }
+  .form button{
+    width: fit-content;
+    padding: .5rem 1rem;
+    /* background-color: #C77E25;
+    background-color: #55360F; */
+    background-color: #3D3AF6;
+    color: white;
+  
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: .5rem;
+  }
+  .form button:hover,
+  .form button:focus{
+    opacity: .8;
+  }
+  
+  
+  #errorMessage{
+    color: red;
+    margin: .4rem .1rem;
+    font-size: .9rem;
+    transition: 1s ease-in-out;
+  }
+  .errorBorder{
+    border-bottom:solid 2px red;
+  }
+  .emailSection{
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media(min-width:650px){
+    .App{
+      width:60%;
+      margin: 3rem auto;
+    }
+  }
+  @media(min-width: 900px){
+    .App{
+      margin: 11rem auto;
+    }
+  }
+  
+  
+  
