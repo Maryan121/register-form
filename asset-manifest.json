@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/register-form/static/css/main.76153f73.css",
+    "main.js": "/register-form/static/js/main.ab99f942.js",
+    "static/media/background.jpeg": "/register-form/static/media/background.41ebe80b971df3904227.jpeg",
+    "index.html": "/register-form/index.html",
+    "main.76153f73.css.map": "/register-form/static/css/main.76153f73.css.map",
+    "main.ab99f942.js.map": "/register-form/static/js/main.ab99f942.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76153f73.css",
+    "static/js/main.ab99f942.js"
+  ]
+}
