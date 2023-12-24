@@ -1,6 +1,6 @@
 body{
   background:
- linear-gradient(to right, rgb(3, 3, 26,0.6), rgba(5, 5, 41, 0.6))
+ linear-gradient(to right, rgb(3, 3, 26,0.3), rgba(5, 5, 41, 0.5))
   ,
   url('./background.jpeg');
   background-size: cover;  
